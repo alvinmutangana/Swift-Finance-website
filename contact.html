@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo3.png" >
+    <title>Contact Us - Swift Finance Ltd</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- HEADER / NAVIGATION -->
+    <header class="header-nav sticky-top bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="home">
+                    <img src="logo.png" alt="Swift Finance logo" class="logo-img" />
+                </a>
+
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="loans">Loan Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTACT HERO SECTION -->
+    <section class="hero-section">
+        <div class="container py-5 text-center">
+            <h1 class="hero-title mb-4">Contact Us</h1>
+            <p class="hero-text mx-auto" style="max-width: 800px;">
+                We're here to help. Reach out to us through any of the channels below or visit our branch in Nyamata-Bugesera.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT INFO & FORM -->
+    <section class="contact-section py-5">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Contact Information -->
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Get In Touch</h2>
+                    <p class="text-muted mb-4">
+                        Our team is ready to assist you with any questions about our loan services. Feel free to contact us during business hours.
+                    </p>
+
+                    <div class="contact-info-list">
+                        <!-- Phone -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Phone</h5>
+                                <a href="tel:0788302499" class="contact-link">0788302499</a>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Email</h5>
+                                <a href="mailto:swift3finance@gmail.com" class="contact-link">swift3finance@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Office Location</h5>
+                                <p class="text-muted mb-0">
+                                    Nyamata-Bugesera<br>
+                                    Rwanda
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Business Hours -->
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Business Hours</h5>
+                                <p class="text-muted mb-0">
+                                    Monday - Friday: 8:00 AM - 4:00 PM<br>
+                                    Saturday - Sunday: Closed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-6">
+                    <div class="contact-form-card">
+                        <h2 class="mb-4">Send Us a Message</h2>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="john@example.com" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="6" placeholder="Tell us how we can help you..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-success w-100 btn-lg">
+                                Send Message
+                                <i class="fas fa-paper-plane ms-2"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAP SECTION -->
+    <section class="map-section py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="section-title">Visit Our Branch</h2>
+                <p class="text-muted">Find us in Nyamata-Bugesera, Rwanda</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3987.022460128887!2d30.08878617480562!3d-2.145083297835821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMsKwMDgnNDIuMyJTIDMwwrAwNScyOC45IkU!5e0!3m2!1sen!2srw!4v1764881267333!5m2!1sen!2srw"
+                            width="100%"
+                            style="border:0; border-radius:8px;"
+                            allowfullscreen
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Swift Finance Ltd Location">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUICK ACTIONS CTA -->
+<section class="cta-section py-5">
+  <div class="container text-center">
+    <h2 class="cta-title mb-4">Ready to Apply for a Loan?</h2>
+    <p class="cta-text mb-4">
+      Contact us today to discuss your loan needs or visit our branch to speak with one of our financial advisors.
+    </p>
+    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
+      <a href="tel:0788302499" class="btn btn-success btn-lg raw-phone">
+        <i class="fas fa-phone me-2"></i>
+        Call Now
+      </a>
+      <a href="mailto:swift3finance@gmail.com" class="btn btn-outline-dark btn-lg">
+        <i class="fas fa-envelope me-2"></i>
+        Email Us
+      </a>
+    </div>
+  </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer class="footer-section py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Company Info -->
+                <div class="col-md-4">
+                     <div class="d-flex align-items-center mb-3">
+                        <div class="ms-2">
+                            <div class="footer-company-name">Swift Finance Ltd</div>
+                            <div class="footer-slogan">Fast Financial Solutions</div>
+                        </div>
+                    </div>
+                    <p class="footer-text">
+                        Rwanda's trusted lending partner, empowering individuals and businesses to achieve their dreams.
+                    </p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5 class="footer-title mb-3">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="home">Home</a></li>
+                        <li><a href="loans">Loan Services</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="col-md-4">
+                    <h5 class="footer-title mb-3">Contact Us</h5>
+                    <ul class="footer-contact list-unstyled">
+    <li class="d-flex align-items-center mb-2">
+        <i class="fas fa-phone text-success me-2"></i>
+        <a href="tel:0788302499" class="text-decoration-none text-white raw-phone">0788302499</a>
+    </li>
+    <li class="d-flex align-items-center mb-2">
+        <i class="fas fa-envelope text-success me-2"></i>
+        <a href="mailto:swift3finance@gmail.com" class="text-decoration-none text-white">swift3finance@gmail.com</a>
+    </li>
+    <li class="d-flex align-items-center">
+        <i class="fas fa-map-marker-alt text-success me-2"></i>
+        <span class="text-white">Nyamata-Bugesera, Rwanda</span>
+    </li>
+</ul>
+                </div>
+            </div>
+            
+            <hr class="my-4 border-secondary">
+            
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Swift Finance Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+    
+    <!-- Toast Container  -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1050">
+    <div id="formToast" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+        <div class="toast-body">
+            Message sent successfully!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="btn btn-success" style="position: fixed; bottom: 20px; right: 20px; display: none; z-index: 1000;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>

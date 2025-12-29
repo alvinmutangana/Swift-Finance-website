@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo3.png" >
+    <title>Loan Services - Swift Finance Ltd</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- HEADER / NAVIGATION -->
+    <header class="header-nav sticky-top bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="home">
+                    <img src="logo.png" alt="Swift Finance logo" class="logo-img" />
+                </a>
+
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="loans">Loan Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- LOANS PAGE CONTENT -->
+    <section class="loans-page py-5 bg-light">
+        <div class="container">
+            <!-- Header -->
+            <div class="text-center mb-5">
+                <h1 class="page-title">Loan Services</h1>
+                <p class="page-subtitle text-muted">
+                    Explore our comprehensive range of loan products. Each loan is designed to meet specific needs with clear requirements and fast processing times.
+                </p>
+            </div>
+
+            <!-- Loan Cards Grid -->
+            <div class="row g-4">
+                
+                <!-- Mortgage, car and land Loan -->
+                <div class="col-md-6">
+                    <div class="loan-card">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="loan-icon d-flex flex-row gap-2 me-3">
+                                <i class="fas fa-car"></i> 
+                                <i class="fas fa-home"></i> 
+                                  <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h3 class="loan-name">Car, Mortgage and Land loans</h3>
+                                <p class="loan-desc">Own your dream home with our affordable mortgage solutions.</p>
+                            </div>
+                        </div>
+                        <h5 class="requirements-title">Required Documents:</h5>
+                        <ul class="requirements-list">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Loan application letter</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>National ID copy</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Citizenship certificate</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Collateral Documents</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Insurance</li>
+                        </ul>
+                        <a href="contact" class="btn btn-success w-100">
+                            Contact Us to Apply
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Salary Advance -->
+                <div class="col-md-6">
+                    <div class="loan-card">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="loan-icon">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h3 class="loan-name">Salary Advance</h3>
+                                <p class="loan-desc">Get paid early with our salary advance service.</p>
+                            </div>
+                        </div>
+                        <h5 class="requirements-title">Required Documents:</h5>
+                        <ul class="requirements-list">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Loan application letter</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>National ID copy</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Citizenship certificate</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Employment contract</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Recommendation letter</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Loan commitment</li>
+                        </ul>
+                        <a href="contact" class="btn btn-success w-100">
+                            Contact Us to Apply
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Business Loan -->
+                <div class="col-md-6">
+                    <div class="loan-card">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="loan-icon">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h3 class="loan-name">Business Loan</h3>
+                                <p class="loan-desc">Finance your business operations and grow your trade.</p>
+                            </div>
+                        </div>
+                        <h5 class="requirements-title">Required Documents:</h5>
+                        <ul class="requirements-list">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Loan application letter</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>National ID copy</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Citizenship certificate</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Collateral documents</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Value of collateral</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>RDB certificate and patent</li>
+                        </ul>
+                        <a href="contact" class="btn btn-success w-100">
+                            Contact Us to Apply
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Loans 100k-500k -->
+                <div class="col-md-6">
+                    <div class="loan-card">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="loan-icon">
+                                <i class="fas fa-money-bill"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h3 class="loan-name">Loans from 100,000–500,000 RWF</h3>
+                                <p class="loan-desc">Small to medium loans for personal and business needs.</p>
+                            </div>
+                        </div>
+                        <h5 class="requirements-title">Required Documents:</h5>
+                        <ul class="requirements-list">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Loan application letter</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>National ID copy</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Citizenship certificate</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Collateral documents</li>
+                        </ul>
+                        <a href="contact" class="btn btn-success w-100">
+                            Contact Us to Apply
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Loans above 500k -->
+                <div class="col-md-6">
+                    <div class="loan-card">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="loan-icon">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h3 class="loan-name">Loans above 500,000 RWF</h3>
+                                <p class="loan-desc">Large loans for significant investments and major projects.</p>
+                            </div>
+                        </div>
+                        <h5 class="requirements-title">Required Documents:</h5>
+                        <ul class="requirements-list">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Loan application letter</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>National ID copy</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Citizenship certificate</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Collateral documents</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Value of collateral</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Insurance</li>
+                        </ul>
+                        <a href="contact" class="btn btn-success w-100">
+                            Contact Us to Apply
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom CTA -->
+            <div class="card mt-5 p-4 text-center border">
+                <h3 class="mb-3">Ready to Apply?</h3>
+                <p class="text-muted mb-4">
+                    Contact us today to discuss your loan needs. Our team is ready to guide you through the application process and answer any questions you may have.
+                </p>
+                <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
+                    <a href="tel:0788302499" class="btn btn-success btn-lg raw-phone">
+                        Call Us: 0788302499
+                    </a>
+                    <a href="mailto:swift3finance@gmail.com" class="btn btn-dark btn-lg">
+                        Email Us
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-section py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Company Info -->
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="ms-2">
+                            <div class="footer-company-name">Swift Finance Ltd</div>
+                            <div class="footer-slogan">Fast Financial Solutions</div>
+                        </div>
+                    </div>
+                    <p class="footer-text">
+                        Rwanda's trusted lending partner, empowering individuals and businesses to achieve their dreams.
+                    </p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5 class="footer-title mb-3">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="home">Home</a></li>
+                        <li><a href="loans">Loan Services</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="col-md-4">
+                    <h5 class="footer-title mb-3">Contact Us</h5>
+                   <ul class="footer-contact list-unstyled">
+    <li class="d-flex align-items-center mb-2">
+        <i class="fas fa-phone text-success me-2"></i>
+        <a href="tel:0788302499" class="text-decoration-none text-white raw-phone">0788302499</a>
+    </li>
+    <li class="d-flex align-items-center mb-2">
+        <i class="fas fa-envelope text-success me-2"></i>
+        <a href="tel:0788302499" class="text-decoration-none text-white raw-phone">0788302499</a>
+    </li>
+    <li class="d-flex align-items-center">
+        <i class="fas fa-map-marker-alt text-success me-2"></i>
+        <span class="text-white">Nyamata-Bugesera, Rwanda</span>
+    </li>
+</ul>
+                </div>
+            </div>
+            
+            <hr class="my-4 border-secondary">
+            
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Swift Finance Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="btn btn-success" style="position: fixed; bottom: 20px; right: 20px; display: none; z-index: 1000;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
